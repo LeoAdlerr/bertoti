@@ -10,3 +10,5 @@
 
 <img src="https://github.com/LeoAdlerr/bertoti/blob/main/Atividade1Bertoti/Heuristican1.jpg">
 
+##Atividade 2:
+
