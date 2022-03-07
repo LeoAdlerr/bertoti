@@ -1,7 +1,7 @@
 # Bertoti Atividades engenharia de software:
 
 
-## Atividade 1(Funcionais e não funcionais)
+## Atividade 1 UX(Funcionais e não funcionais)
 ### Funcionais:
 <img src="https://github.com/LeoAdlerr/bertoti/blob/main/Atividade1Bertoti/FuncionaisTeams.jpeg">
 
