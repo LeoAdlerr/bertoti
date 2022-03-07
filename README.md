@@ -8,6 +8,8 @@
 ### Não Funcionais:
 <img src="https://github.com/LeoAdlerr/bertoti/blob/main/Atividade1Bertoti/design_Heuristica_amazon.png">
 
+<img src="https://github.com/LeoAdlerr/bertoti/blob/main/Atividade1Bertoti/Heuristican8.png">
+
 <img src="https://github.com/LeoAdlerr/bertoti/blob/main/Atividade1Bertoti/Heuristican1.jpg">
 
 ## Atividade 2:
