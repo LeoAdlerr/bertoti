@@ -8,10 +8,10 @@
 
 ### Não Funcionais:
 
-Heuristica n°8
+Heuristica n°4
 <img src="https://github.com/LeoAdlerr/bertoti/blob/main/Atividade1Bertoti/design_Heuristica_amazon.png">
 
-Heuristica n°4
+Heuristica n°8
 <img src="https://github.com/LeoAdlerr/bertoti/blob/main/Atividade1Bertoti/Heuristican8.png">
 
 Heuristica n°1
