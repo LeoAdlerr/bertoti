@@ -1,4 +1,4 @@
-# Bertoti Atividades engenharia de software:
+# Bertoti Atividades engenharia de software (Ciclo de vida):
 
 
 ## Atividade 1 UX(Funcionais e não funcionais)/Requisitos:
@@ -17,5 +17,5 @@ Heuristica n°8
 Heuristica n°1
 <img src="https://github.com/LeoAdlerr/bertoti/blob/main/Atividade1Bertoti/Heuristican1.jpg">
 
-## Atividade 2:
+## Atividade 2(Projeto):
 
