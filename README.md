@@ -17,5 +17,7 @@ Heuristica n°8
 Heuristica n°1
 <img src="https://github.com/LeoAdlerr/bertoti/blob/main/Atividade1Bertoti/Heuristican1.jpg">
 
-## Atividade 2(Projeto):
+## Atividade 2(ProjetoDiagrama):
+
+<img src="https://github.com/LeoAdlerr/bertoti/blob/main/EngenhariaDeSoftware/PlataformaDiagrama.jpeg">
 
