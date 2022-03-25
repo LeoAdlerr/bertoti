@@ -1,4 +1,5 @@
 # Bertoti Atividades engenharia de software (Ciclo de vida):
+(Exemplo_plataforma de ensino)
 
 
 ## Atividade 1 UX(Funcionais e não funcionais)/Requisitos:
@@ -20,4 +21,6 @@ Heuristica n°1
 ## Atividade 2(ProjetoDiagrama):
 
 <img src="https://github.com/LeoAdlerr/bertoti/blob/main/EngenhariaDeSoftware/PlataformaDiagrama.jpeg">
+
+## Desenvolvimento:
 
