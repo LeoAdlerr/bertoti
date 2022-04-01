@@ -3,8 +3,12 @@
 
 
 ## Atividade 1 UX(Funcionais e não funcionais)/Requisitos:
-### Funcionais:
+## Funcionais:
+
+### Casos de Uso:
 <img src="https://github.com/LeoAdlerr/bertoti/blob/main/EngenhariaDeSoftware/IMG/FuncionaisTeams.jpeg">
+
+### Story Cards:
 <img src="https://github.com/LeoAdlerr/bertoti/blob/main/EngenhariaDeSoftware/IMG/Storycards.jpeg">
 
 ### Não Funcionais:
