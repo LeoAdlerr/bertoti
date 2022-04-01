@@ -4,23 +4,23 @@
 
 ## Atividade 1 UX(Funcionais e não funcionais)/Requisitos:
 ### Funcionais:
-<img src="https://github.com/LeoAdlerr/bertoti/blob/main/Atividade1Bertoti/FuncionaisTeams.jpeg">
-<img src="https://github.com/LeoAdlerr/bertoti/blob/main/Atividade1Bertoti/Storycards.jpeg">
+<img src="https://github.com/LeoAdlerr/bertoti/blob/main/EngenhariaDeSoftware/IMG/FuncionaisTeams.jpeg">
+<img src="https://github.com/LeoAdlerr/bertoti/blob/main/EngenhariaDeSoftware/IMG/Storycards.jpeg">
 
 ### Não Funcionais:
 
-Heuristica n°4
-<img src="https://github.com/LeoAdlerr/bertoti/blob/main/Atividade1Bertoti/design_Heuristica_amazon.png">
+### Heuristica n°1
+<img src="https://github.com/LeoAdlerr/bertoti/blob/main/EngenhariaDeSoftware/IMG/Heuristican1.jpg">
 
-Heuristica n°8
-<img src="https://github.com/LeoAdlerr/bertoti/blob/main/Atividade1Bertoti/Heuristican8.png">
+### Heuristica n°4
+<img src="https://github.com/LeoAdlerr/bertoti/blob/main/EngenhariaDeSoftware/IMG/design_Heuristica_amazon.png">
 
-Heuristica n°1
-<img src="https://github.com/LeoAdlerr/bertoti/blob/main/Atividade1Bertoti/Heuristican1.jpg">
+### Heuristica n°8
+<img src="https://github.com/LeoAdlerr/bertoti/blob/main/EngenhariaDeSoftware/IMG/Heuristican8.png">
 
 ## Atividade 2(ProjetoDiagrama):
 
-<img src="https://github.com/LeoAdlerr/bertoti/blob/main/EngenhariaDeSoftware/PlataformaDiagrama.jpeg">
+<img src="https://github.com/LeoAdlerr/bertoti/blob/main/EngenhariaDeSoftware/IMG/PlataformaDiagrama.jpeg">
 
 ## Desenvolvimento:
 
