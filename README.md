@@ -11,7 +11,7 @@
 ### Story Cards:
 <img src="https://github.com/LeoAdlerr/bertoti/blob/main/EngenhariaDeSoftware/IMG/Storycards.jpeg">
 
-### Não Funcionais:
+## Não Funcionais:
 
 ### Heuristica n°1
 <img src="https://github.com/LeoAdlerr/bertoti/blob/main/EngenhariaDeSoftware/IMG/Heuristican1.jpg">
