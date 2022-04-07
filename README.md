@@ -24,7 +24,7 @@
 
 ## Atividade 2(ProjetoDiagrama):
 
-<img src="https://github.com/LeoAdlerr/bertoti/blob/main/EngenhariaDeSoftware/IMG/PlataformaDiagrama.jpeg">
+<img src="https://github.com/LeoAdlerr/bertoti/blob/main/EngenhariaDeSoftware/IMG/DiagramadeClassePlat.jpeg">
 
 ## Desenvolvimento:
 
