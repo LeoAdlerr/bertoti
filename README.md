@@ -27,13 +27,14 @@
 <img src="https://github.com/LeoAdlerr/bertoti/blob/main/EngenhariaDeSoftware/IMG/PlataformaDiagrama.jpeg">
 
 ## Desenvolvimento:
-Plataforma/Main
+
+### Plataforma/Main
 <img src="https://github.com/LeoAdlerr/bertoti/blob/main/EngenhariaDeSoftware/IMG/Plataformaa%20(1).png">
 
-PLataforma/Pessoa
+### PLataforma/Pessoa
 <img src="https://github.com/LeoAdlerr/bertoti/blob/main/EngenhariaDeSoftware/IMG/Plataformaa%20(3).png">
 
-PLataforma/Disciplina
+### PLataforma/Disciplina
 <img src="https://github.com/LeoAdlerr/bertoti/blob/main/EngenhariaDeSoftware/IMG/Plataformaa%20(2).png">
 
 
