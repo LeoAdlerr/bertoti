@@ -31,7 +31,7 @@
 ### Plataforma/Main
 <img src="https://github.com/LeoAdlerr/bertoti/blob/main/EngenhariaDeSoftware/IMG/Plataformaa%20(1).png">
 
-### PLataforma/Pessoa
+### Plataforma/Pessoa
 <img src="https://github.com/LeoAdlerr/bertoti/blob/main/EngenhariaDeSoftware/IMG/Plataformaa%20(3).png">
 
 ### PLataforma/Disciplina
