@@ -2,7 +2,7 @@
 <html lang="pt-br">
   <head>
     <meta charset="utf-8">
-    <title>HOME - Iacit</title>
+    <title>Cadastro - Bertoti</title>
 
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
@@ -78,73 +78,30 @@
             <!-- Seleção da data que se finaliza o relatorio-->
             <!--Inicio das textbox-->
             <div class="col-md-3">
-              <h4 class="mb-4">Selecione as Regiões:</h4>
-              <input type="search" name="regiao" class="form-control" id="Regiao" placeholder="Região" aria-label="região" onkeyup="carregar_regiao(this.value)">
-              <spann id="pesquisa_regiao" class="position-absolute"></spann>
+              <h4 class="mb-4">Nome:</h4>
+              <input type="search" name="nome" class="form-control" id="nome" placeholder="Nome" aria-label="nome">
+              <spann id="pesquisa_nome" class="position-absolute"></spann>
             </div>
             <div class="col-md-3">
-              <h4 class="mb-4">Selecione UF:</h4>
-              <input type="search" name="UF" class="form-control" id="UF" placeholder="Unidade Federativa" aria-label="uf" onkeyup="carregar_UF(this.value)">
-              <spann id="pesquisa_UF" class="position-absolute"></spann>
+              <h4 class="mb-4">E-Mail:</h4>
+              <input type="search" name="email" class="form-control" id="email" placeholder="E-Mail" aria-label="email">
+              <spann id="pesquisa_email" class="position-absolute"></spann>
             </div>
             <div class="col-md-3">
-              <h4 class="mb-4">Selecione a Estação:</h4>
-              <input type="search" name="estacao" class="form-control" id="Estacao" placeholder="Estação" aria-label="estação" onkeyup="carregar_estacao(this.value)">
-              <spann id="pesquisa_estacao" class="position-absolute"></spann>
-            </div>
-            <div class="col-md-3">
-              <h4 class="mb-4">Selecione as Variaveis:</h4>
-              <input type="search" name="variavel" class="form-control" id="Variavel" placeholder="Variável" aria-label="variavel" onkeyup="carregar_variavel(this.value)">
-              <spann id="pesquisa_variavel" class="position-absolute"></spann>
-            </div>
-            <div class="col-md-3">
-              <h4 class="mb-0">Selecione o Período:</h4>
-              <label for="dia">Data inicio:</label>
-              <input type="date" class="form-control"  id="DataInicio" name="dia" />
-              <label for="dia">Data Fim :</label>
-              <input type="date" class="form-control" id="DataFim" name="dia" />
+              <h4 class="mb-4">Senha:</h4>
+              <input type="search" name="senha" class="form-control" id="senha" placeholder="Senha" aria-label="senha">
+              <spann id="pesquisa_senha" class="position-absolute"></spann>
             </div>
             <!--Fim das textbox-->
             </form>
           <!--Botão responsavel por fazer a requisição dos filtros-->
           <br>
-          <button id="filtro" class="btn btn-outline-success" type="submit" onclick="filtra()">
-            Consultar 
+          <button id="filtro" class="btn btn-outline-success" type="submit" onclick="cadastrar()">
+            Cadastrar 
           </button>
           <!-- Fim do botão-->
         </div>
 
-        <br>
-        <div class="container mt-3">
-          <h2>Relatorio</h2>
-        </div>
-        <div>
-          <canvas id="plots" style="width:100%; max-width:750px" position="center"></canvas>
-          <script src="/main.js"></script>
-        </div>
-
-        <button onclick="window.print()" class="btn btn-outline-success no-print"><i
-          class="fas fa-download fa-sm text-white-50"></i> Gerar Relatório
-        </button>
-
-        <div id="relatorio"></div>
-
-        <br>
-
-        <table class="table table-striped" cellspacing="0" cellpadding="0">
-          <thead>
-            <tr>
-              <th scope="col">Codigo (WMO)</th>
-              <th scope="col">Nome Estação</th>
-              <th scope="col">Id da Estação</th>
-              <th scope="col">Temp. Bulbo Seco</th>
-              <th scope="col">Temp. Max.</th>
-              <th scope="col">Temp. Min</th>
-              <th scope="col">Data e Hora</th>
-            </tr>
-          </thead>
-          <tbody id="tbody"></tbody>
-        </table>
       </div>
       <!--Final do relatorio e filtros-->
     </div>

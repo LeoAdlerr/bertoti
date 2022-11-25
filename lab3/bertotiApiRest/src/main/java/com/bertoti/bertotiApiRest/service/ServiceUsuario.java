@@ -23,10 +23,7 @@ public class ServiceUsuario {
 	public Usuario save(String nome, String email, String senha) {
 		Usuario usuario = new Usuario(nome, email, senha);
 		Usuario saveUsuario = usuarioRepository.save(usuario);
+		
 		return saveUsuario;
-	}
-
-	public List findAll() {
-		return (List) usuarioRepository.findAll();
 	}
 }
