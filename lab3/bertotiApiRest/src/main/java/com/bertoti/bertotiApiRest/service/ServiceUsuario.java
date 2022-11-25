@@ -1,11 +1,10 @@
 package com.bertoti.bertotiApiRest.service;
 
-import com.bertoti.bertotiApiRest.entity.Usuario;
-import com.bertoti.bertotiApiRest.repository.UsuarioRepository;
-
-import org.hibernate.mapping.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.bertoti.bertotiApiRest.entity.Usuario;
+import com.bertoti.bertotiApiRest.repository.UsuarioRepository;
 
 @Service
 public class ServiceUsuario {
@@ -22,7 +21,12 @@ public class ServiceUsuario {
 	//Salvar o usuario ou seja cadastrar
 	public Usuario save(String nome, String email, String senha) {
 		Usuario usuario = new Usuario(nome, email, senha);
-		Usuario saveUsuario = usuarioRepository.save(usuario);
+		Usuario saveUsuario = new Usuario();
+		if (usuario.getUsuEmail().isEmpty() || usuario.getUsuNome().isEmpty()
+				|| usuario.getUsuSenha().isEmpty()) {
+		}else {
+			saveUsuario = usuarioRepository.save(usuario);
+		}
 		
 		return saveUsuario;
 	}
