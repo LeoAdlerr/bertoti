@@ -6,7 +6,7 @@
 
 ### Tela de login
 Aplicação começa na tela de login e caso o usuario não exista ou caso os dados forem preechidos incorretamente ocorre o erro abaixo,
-além de havem a possibilidade de se direcionar para a tela de cadastro caso o usuario ainda não esteja cadastrado
+além de haver a possibilidade de se direcionar para a tela de cadastro caso o usuario ainda não esteja cadastrado
 <img src="https://github.com/LeoAdlerr/bertoti/blob/main/lab3/bertotiApiRest/imgs/LoginErro.png">
 <br>
 <br>
