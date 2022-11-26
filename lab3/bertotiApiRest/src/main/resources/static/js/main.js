@@ -20,6 +20,21 @@ function cadastrar(){
 	});
 }
 
+function cadastro(){		
+	
+	window.location.replace("/cadastro");
+}
+
+function logon(){		
+	
+	window.location.replace("/login");
+}
+
+function home(){		
+	
+	window.location.replace("/home");
+}
+
 function logar(){		
 	var vEmail = $("#email").val();
 	var vSenha = $("#senha").val();
