@@ -13,8 +13,8 @@ Tela de cadastro caso o usuario entre pelo botão da tela login
 <img src="https://github.com/LeoAdlerr/bertoti/blob/main/lab3/bertotiApiRest/imgs/Cadastro2.png">
 <br>
 
-Caso os dados do usuario existam, aparece a mensagem de sucesso e enntra na tela home
-<img src="https://github.com/LeoAdlerr/bertoti/blob/main/lab3/bertotiApiRest/imgs/LoginRight.png">
+Caso os dados do usuario existam, aparece a mensagem de sucesso e entra na tela home
+<img src="https://github.com/LeoAdlerr/bertoti/blob/main/lab3/bertotiApiRest/imgs/LoginRights.png">
 <br>
 Tela home com botões para voltar para a tela de login e para se direcionar para a tela de cadastro
 <img src="https://github.com/LeoAdlerr/bertoti/blob/main/lab3/bertotiApiRest/imgs/telaHomeC.png">
