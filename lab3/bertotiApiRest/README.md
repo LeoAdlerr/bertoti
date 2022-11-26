@@ -9,6 +9,8 @@ Aplicação começa na tela de login e caso o usuario não exista ou caso os dad
 além de havem a possibilidade de se direcionar para a tela de cadastro caso o usuario ainda não esteja cadastrado
 <img src="https://github.com/LeoAdlerr/bertoti/blob/main/lab3/bertotiApiRest/imgs/LoginErro.png">
 <br>
+<br>
+
 Caso os dados do usuario existam, aparece a mensagem de sucesso e enntra na tela home
 <img src="https://github.com/LeoAdlerr/bertoti/blob/main/lab3/bertotiApiRest/imgs/LoginRight.png">
 <br>
