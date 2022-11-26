@@ -1,10 +1,12 @@
 package com.bertoti.bertotiApiRest.service;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+import java.util.List;
 
 import com.bertoti.bertotiApiRest.entity.Usuario;
 import com.bertoti.bertotiApiRest.repository.UsuarioRepository;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 @Service
 public class ServiceUsuario {
@@ -30,4 +32,10 @@ public class ServiceUsuario {
 		
 		return saveUsuario;
 	}
+	
+	public List<Usuario> listUsuario() {
+		List<Usuario> user = usuarioRepository.selectListaUsuario();
+		return user;
+	}
+	
 }
