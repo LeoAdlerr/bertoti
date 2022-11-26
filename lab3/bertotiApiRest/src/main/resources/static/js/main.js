@@ -24,6 +24,10 @@ function cadastro(){
 	
 	window.location.replace("/cadastro");
 }
+function cadastro2(){		
+	
+	window.location.replace("/cadastro2");
+}
 
 function logon(){		
 	

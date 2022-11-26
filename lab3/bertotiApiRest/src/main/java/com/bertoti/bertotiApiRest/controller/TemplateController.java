@@ -27,6 +27,14 @@ public class TemplateController {
 
 		return modelAndView;
 	}
+	
+	@GetMapping(value = { "cadastro2" })
+	public ModelAndView Cadastro2() {
+		ModelAndView modelAndView = new ModelAndView();
+		modelAndView.setViewName("cadastro2.html");
+
+		return modelAndView;
+	}
 
 	@GetMapping(value = { "login" })
 	public ModelAndView Login() {

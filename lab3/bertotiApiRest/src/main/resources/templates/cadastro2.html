@@ -2,7 +2,7 @@
 <html lang="pt-br">
   <head>
     <meta charset="utf-8">
-    <title>Login - Bertoti</title>
+    <title>Cadastro - Bertoti</title>
 
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
@@ -47,6 +47,11 @@
             <!-- Seleção da data que se finaliza o relatorio-->
             <!--Inicio das textbox-->
             <div class="col-md-3">
+              <h4 class="mb-4">Nome:</h4>
+              <input type="search" name="nome" class="form-control" id="nome" placeholder="Nome" aria-label="nome">
+              <spann id="pesquisa_nome" class="position-absolute"></spann>
+            </div>
+            <div class="col-md-3">
               <h4 class="mb-4">E-Mail:</h4>
               <input type="search" name="email" class="form-control" id="email" placeholder="E-Mail" aria-label="email">
               <spann id="pesquisa_email" class="position-absolute"></spann>
@@ -60,13 +65,12 @@
             </form>
           <!--Botão responsavel por fazer a requisição dos filtros-->
           <br>
-          <button id="filtro" class="btn btn-outline-success" type="submit" onclick="logar()">
-            Login
-    
+          <button id="filtro" class="btn btn-outline-success" type="submit" onclick="cadastrar()">
+            Cadastrar 
           </button>
           
-          <button id="telaLogin" class="btn btn-outline-success" type="submit" onclick="cadastro2()">
-            Tela Cadastro
+          <button id="homeTela" class="btn btn-outline-success" type="submit" onclick="logon()">
+            Tela Login 
           </button>
           <!-- Fim do botão-->
         </div>
