@@ -1,5 +1,5 @@
 # Aluno: Leonardo Adler da Silva RA: 1460282123010
-(Exemplo_plataforma de ensino)
+(Exemplo Api Rest de ensino)
 
 
 ## ApiRest (Criada uma api para salvar dados de um cadastro de usuario)
