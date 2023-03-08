@@ -1,11 +1,13 @@
 <h1>Faculdade</h1>
 
-Fulano de Tal
-Olá, sou Fulano
-Estudante de computação, escritor online e estas são minhas experiências na
-Fatec SJC.
-Meus Projetos
-Em 2019-2 Trabalhei no projeto da API com o Parceiro Acadêmico ACME.
+Leonardo Adler da Silva
+
+  Olá, sou Leonardo Adler da Silva
+estudante de Banco de Dados na Fatec Jessen Vidal, na qual tive experiência 
+onde utilizei as metodologias ageis e diversas tecnologias.  
+
+  Em 2022-2 foi trabalhado um projeto API com o parceiro acadêmico IACIT. 
+  Conceitos como extração e 
 Percebemos, cada vez mais, que o consenso sobre a utilização da orientação a
 objeto pode nos levar a considerar a reestruturação das novas tendencias em
 TI. Do mesmo modo, o novo modelo computacional aqui preconizado garante a
