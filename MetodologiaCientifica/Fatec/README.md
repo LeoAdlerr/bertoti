@@ -31,6 +31,8 @@ Hard Skills Efetivamente Desenvolvidas Python, CSS, Html
 Soft Skills Efetivamente Desenvolvidas Autonomia Ainda assim, existem
 dúvidas a respeito de como a alta necessidade de integridade representa uma
 abertura para a melhoria dos equipamentos pré-especificados.
+<br> 
+<br>
 Em 2020-1 Trabalhei no projeto da API com o Parceiro Acadêmico Wild
 Apricot. O incentivo ao avanço tecnológico, assim como a preocupação com a
 TI verde acarreta um processo de reformulação e modernização da garantia da
