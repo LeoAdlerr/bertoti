@@ -1,5 +1,3 @@
-<h1>Faculdade</h1>
-
 <h2> Leonardo Adler da Silva </h2>
 
   Olá, sou Leonardo Adler da Silva
