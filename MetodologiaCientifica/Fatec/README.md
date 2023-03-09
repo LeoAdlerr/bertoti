@@ -18,7 +18,7 @@ no caso foram utilizado gráficos e a filtragem dos dados pelo usuário para tal
 
 <h4>Tecnologias utilizadas no Projeto</h4>
 
-- HTML
+- HTML<br>
 Escrever o que foi feito utilizando a tecnologia em questão
 - CSS
 - Java
