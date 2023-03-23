@@ -1,0 +1,74 @@
+import java.util.ArrayList;
+import java.util.List;
+
+interface Observer {
+    void update(String message);
+}
+
+interface Subject {
+    void attach(Observer observer);
+    void detach(Observer observer);
+    void notifyObservers(String message);
+}
+
+class MessageBoard implements Subject {
+    private List<Observer> observers = new ArrayList<>();
+
+    @Override
+    public void attach(Observer observer) {
+        observers.add(observer);
+    }
+
+    @Override
+    public void detach(Observer observer) {
+        observers.remove(observer);
+    }
+
+    @Override
+    public void notifyObservers(String message) {
+        for (Observer observer : observers) {
+            observer.update(message);
+        }
+    }
+}
+
+class User implements Observer {
+    private String name;
+
+    public User(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public void update(String message) {
+        System.out.println(name + " received a message: " + message);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        MessageBoard board = new MessageBoard();
+
+        User alice = new User("Alice");
+        User bob = new User("Bob");
+        User charlie = new User("Charlie");
+
+        board.attach(alice);
+        board.attach(bob);
+        board.attach(charlie);
+
+        board.notifyObservers("Hello, world!");
+
+        board.detach(bob);
+
+        board.notifyObservers("Goodbye, world!");
+    }
+}
+
+In this program, we define two interfaces: Observer and Subject. The Observer interface has a single method, update, which is called by the Subject when its state changes. The Subject interface has three methods: attach, detach, and notifyObservers. The attach and detach methods are used to add and remove Observer objects, and the notifyObservers method is used to notify all registered observers of a state change.
+
+We then define two concrete classes: MessageBoard, which implements the Subject interface, and User, which implements the Observer interface. The MessageBoard class maintains a list of registered observers and notifies them when its state changes. The User class defines the behavior of an observer, which in this case is simply to print the message it receives.
+
+In the Main class, we create a MessageBoard object and three User objects. We then attach all three users to the message board and notify them of a state change by calling the notifyObservers method. We then detach one of the users and notify the remaining users of another state change.
+
+This program demonstrates how the Observer pattern can be used to implement a publish-subscribe model, where multiple objects can register to receive updates from a single subject.

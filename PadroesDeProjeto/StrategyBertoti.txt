@@ -1,0 +1,149 @@
+public interface SortingStrategy {
+    public void sort(int[] arr);
+}
+
+public class BubbleSortStrategy implements SortingStrategy {
+    public void sort(int[] arr) {
+        int n = arr.length;
+        for (int i = 0; i < n-1; i++)
+            for (int j = 0; j < n-i-1; j++)
+                if (arr[j] > arr[j+1]) {
+                    int temp = arr[j];
+                    arr[j] = arr[j+1];
+                    arr[j+1] = temp;
+                }
+        System.out.println("Sorted using Bubble Sort");
+    }
+}
+
+public class QuickSortStrategy implements SortingStrategy {
+    public void sort(int[] arr) {
+        quickSort(arr, 0, arr.length - 1);
+        System.out.println("Sorted using Quick Sort");
+    }
+
+    private void quickSort(int[] arr, int low, int high) {
+        if (low < high) {
+            int pi = partition(arr, low, high);
+
+            quickSort(arr, low, pi - 1);
+            quickSort(arr, pi + 1, high);
+        }
+    }
+
+    private int partition(int[] arr, int low, int high) {
+        int pivot = arr[high];
+        int i = (low - 1);
+
+        for (int j = low; j <= high - 1; j++) {
+            if (arr[j] < pivot) {
+                i++;
+                int temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }
+        }
+        int temp = arr[i + 1];
+        arr[i + 1] = arr[high];
+        arr[high] = temp;
+
+        return (i + 1);
+    }
+}
+
+public class SortingContext {
+    private SortingStrategy strategy;
+
+    public void setStrategy(SortingStrategy strategy) {
+        this.strategy = strategy;
+    }
+
+    public void sort(int[] arr) {
+        strategy.sort(arr);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        int[] arr = {10, 7, 8, 9, 1, 5};
+        SortingContext sortingContext = new SortingContext();
+        sortingContext.setStrategy(new BubbleSortStrategy());
+        sortingContext.sort(arr);
+
+        sortingContext.setStrategy(new QuickSortStrategy());
+        sortingContext.sort(arr);
+    }
+}
+
+
+
+
+
+
+
+
+
+import java.math.BigDecimal;
+
+interface TaxStrategy {
+    BigDecimal calculateTax(BigDecimal income);
+}
+
+class ProgressiveTax implements TaxStrategy {
+    @Override
+    public BigDecimal calculateTax(BigDecimal income) {
+        if (income.compareTo(new BigDecimal("10000")) < 0) {
+            return income.multiply(new BigDecimal("0.10"));
+        } else {
+            return new BigDecimal("1000").add(income.subtract(new BigDecimal("10000")).multiply(new BigDecimal("0.20")));
+        }
+    }
+}
+
+class FlatTax implements TaxStrategy {
+    @Override
+    public BigDecimal calculateTax(BigDecimal income) {
+        return income.multiply(new BigDecimal("0.15"));
+    }
+}
+
+class TaxCalculator {
+    private TaxStrategy taxStrategy;
+
+    public TaxCalculator(TaxStrategy taxStrategy) {
+        this.taxStrategy = taxStrategy;
+    }
+
+    public BigDecimal calculateTax(BigDecimal income) {
+        return taxStrategy.calculateTax(income);
+    }
+
+    public void setTaxStrategy(TaxStrategy taxStrategy) {
+        this.taxStrategy = taxStrategy;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        TaxCalculator calculator = new TaxCalculator(new ProgressiveTax());
+
+        BigDecimal income = new BigDecimal("15000");
+        BigDecimal tax = calculator.calculateTax(income);
+
+        System.out.println("Income: " + income);
+        System.out.println("Tax: " + tax);
+
+        calculator.setTaxStrategy(new FlatTax());
+
+        tax = calculator.calculateTax(income);
+
+        System.out.println("Income: " + income);
+        System.out.println("Tax: " + tax);
+    }
+}
+
+In this program, we define two tax calculation strategies: ProgressiveTax and FlatTax. The TaxCalculator class takes a TaxStrategy object as a parameter and uses it to calculate the tax for a given income. We can switch between the two tax strategies by calling the setTaxStrategy method on the TaxCalculator object.
+
+In the Main class, we create a TaxCalculator object with the ProgressiveTax strategy and calculate the tax for an income of 15000. We then switch to the FlatTax strategy and calculate the tax again for the same income.
+
+This program demonstrates how the Strategy pattern can be used to encapsulate different algorithms for the same task and allow the client code to switch between them at runtime.
