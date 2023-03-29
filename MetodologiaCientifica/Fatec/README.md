@@ -53,7 +53,7 @@ metodologias ageis e diversas tecnologias.
   e na instalação do código final facilita o uso do mesmo;
   <br><br>
   
-  <h4>Contribuições individuais</h4>
+<h4>Contribuições individuais</h4>
 <details>
   <summary>Api's Rest</summary>
   <p> - Usando spring boot, criei as api's a serem consumidas, nas quais conectei com o banco sql para buscar os dados 
