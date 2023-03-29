@@ -60,12 +60,23 @@ metodologias ageis e diversas tecnologias.
   filtrados pelo frontend, foi pensado em criar essa pesquisa numa lógica que contemple quaisquer pesquisas feitas, além
   do crud com as telas de Login;
   </p>
-  <summary>Persistência</summary>
+  
+</details>
+
+<details>
+<summary>Persistência</summary>
+  <p>
   - Na persistência, participei nos scripts em java para popular o banco com os dados vindos do csv;
-  <summary>Scrum Master</summary>
+    </p>
+    </details>
+    
+<details>
+<summary>Scrum Master</summary>
+  <p>
   - Atuei como Scrum Master, ajudando a organizar o grupo para fazer as reuniões e atenta-los em relação ao burndown 
   situação das tarefas;
-</details>
+  </p>
+  </details>
   
   
 
