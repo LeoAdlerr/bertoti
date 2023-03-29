@@ -59,10 +59,12 @@ metodologias ageis e diversas tecnologias.
   <p> - Usando spring boot, criei as api's a serem consumidas, nas quais conectei com o banco sql para buscar os dados 
   filtrados pelo frontend, foi pensado em criar essa pesquisa numa lógica que contemple quaisquer pesquisas feitas, além
   do crud com as telas de Login;
-      - Na persistência, participei nos scripts em java para popular o banco com os dados vindos do csv;
-      - Atuei como Scrum Master, ajudando a organizar o grupo para fazer as reuniões e atenta-los em relação ao burndown 
-  situação das tarefas;
   </p>
+  <summary>Persistência</summary>
+  - Na persistência, participei nos scripts em java para popular o banco com os dados vindos do csv;
+  <summary>Scrum Master</summary>
+  - Atuei como Scrum Master, ajudando a organizar o grupo para fazer as reuniões e atenta-los em relação ao burndown 
+  situação das tarefas;
 </details>
   
   
