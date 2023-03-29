@@ -55,8 +55,14 @@ metodologias ageis e diversas tecnologias.
   
   <h4>Contribuições individuais</h4>
 <details>
-  <summary>Epcot Center</summary>
-  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  <summary>Api's Rest</summary>
+  <p> - Usando spring boot, criei as api's a serem consumidas, nas quais conectei com o banco sql para buscar os dados 
+  filtrados pelo frontend, foi pensado em criar essa pesquisa numa lógica que contemple quaisquer pesquisas feitas, além
+  do crud com as telas de Login;
+      - Na persistência, participei nos scripts em java para popular o banco com os dados vindos do csv;
+      - Atuei como Scrum Master, ajudando a organizar o grupo para fazer as reuniões e atenta-los em relação ao burndown 
+  situação das tarefas;
+  </p>
 </details>
   
   
