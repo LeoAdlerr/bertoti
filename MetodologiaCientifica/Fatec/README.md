@@ -55,10 +55,10 @@ metodologias ageis e diversas tecnologias.
   
 <h4>Contribuições individuais</h4>
 <details>
-  <summary>Api's Rest</summary>
-  <p> - Usando spring boot, criei as api's a serem consumidas, nas quais conectei com o banco sql para buscar os dados 
+  <summary>Api's Rest  - Usando spring boot, criei as api's a serem consumidas, nas quais conectei com o banco sql para buscar os dados 
   filtrados pelo frontend, foi pensado em criar essa pesquisa numa lógica que contemple quaisquer pesquisas feitas, além
-  do crud com as telas de Login;
+  do crud com as telas de Login</summary>
+  <p>Detalhar mostrando alguma parte do código  ;
   </p>
   
 </details>
@@ -70,13 +70,7 @@ metodologias ageis e diversas tecnologias.
     </p>
     </details>
     
-<details>
-<summary>Scrum Master</summary>
-  <p>
-  - Atuei como Scrum Master, ajudando a organizar o grupo para fazer as reuniões e atenta-los em relação ao burndown 
-  e a situação das tarefas;
-  </p>
-  </details>
+
   
   
  <h4>Aprendizado Efetivo</h4>
@@ -90,6 +84,10 @@ metodologias ageis e diversas tecnologias.
   </p>
   
 </details>
+
+<details>
+  <summary>Metodologia Ágil</summary>
+  <p> - explicar que atuei como Scrum Master e aprendi a utilizar a metodologia ágil/Scrum entregando o projeto por sprints e </p>
 
 <details>
   <summary>Demais Aprendizados</summary>
