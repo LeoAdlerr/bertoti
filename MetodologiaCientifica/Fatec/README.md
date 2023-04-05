@@ -74,10 +74,30 @@ metodologias ageis e diversas tecnologias.
 <summary>Scrum Master</summary>
   <p>
   - Atuei como Scrum Master, ajudando a organizar o grupo para fazer as reuniões e atenta-los em relação ao burndown 
-  situação das tarefas;
+  e a situação das tarefas;
   </p>
   </details>
   
+  
+ <h4>Aprendizado Efetivo</h4>
+  
+  <details>
+  <summary>Api's Rest</summary>
+  <p> - Foi o principal aprendizado, pois através desse entendimento é possível criar diversos tipos de aplicativos
+  web, principalmente aqueles que necessitam de algum mecanismo de busca ou até para mostrar.
+    No caso, a conexão http através dos links, os tipos de retorno e como utiliza-los(enviando e recebendo JSON's), onde utilizamos POST, GET,
+    PUT entre outros tipos de requests que possibilitaram a conexão entre o Banco de Dados e o Front do projeto;
+  </p>
+  
+</details>
+
+<details>
+  <summary>Demais Aprendizados/summary>
+  <p> - Compreendem o funcionamento de interfaces e o polimorfismo na linguagem Java, o básico da linguagem Javascript, HTML e CSS(através do
+  bootstrap). Além da manipulação de dados massivos, desde o download a persistência efetiva;
+  </p>
+  
+</details>
   
 
   
