@@ -64,7 +64,7 @@ metodologias ageis e diversas tecnologias.
 </details>
 
 <details>
-<summary>Persistência</summary>
+<summary>Manipulação de dados</summary>
   <p>
   - Na persistência, participei nos scripts em java para popular o banco com os dados vindos do csv;
     </p>
