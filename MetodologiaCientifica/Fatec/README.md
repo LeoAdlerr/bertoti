@@ -58,7 +58,9 @@ metodologias ageis e diversas tecnologias.
   <summary>Api's Rest  - Usando spring boot, criei as api's a serem consumidas, nas quais conectei com o banco sql para buscar os dados 
   filtrados pelo frontend, foi pensado em criar essa pesquisa numa lógica que contemple quaisquer pesquisas feitas, além
   do crud com as telas de Login</summary>
-  <p>[classe Controller exemplo](https://github.com/DatatechOffice/Api_Iacit/blob/main/api/src/main/java/com/iacit/api/controller/TemperaturaController.java)
+  <p>
+    * [classe Controller exemplo](https://github.com/DatatechOffice/Api_Iacit/blob/main/api/src/main/java/com/iacit/api/controller/TemperaturaController.java)
+    
   
 </details>
 
