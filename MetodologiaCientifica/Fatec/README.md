@@ -58,23 +58,7 @@ metodologias ageis e diversas tecnologias.
   <summary>Api's Rest  - Usando spring boot, criei as api's a serem consumidas, nas quais conectei com o banco sql para buscar os dados 
   filtrados pelo frontend, foi pensado em criar essa pesquisa numa lógica que contemple quaisquer pesquisas feitas, além
   do crud com as telas de Login</summary>
-  <p>@Controller
-public class TemperaturaController {
-
-	@Autowired(required = true)
-	private ServiceTemperatura temperaturaService;
-
-	@PostMapping(value = { "/temperatura" }, consumes = MediaType.APPLICATION_JSON_VALUE)
-	public ResponseEntity<List<Temperatura>> postFiltroPorData(@RequestBody FilterDataVo data) throws ParseException {
-		
-		List<Temperatura> listTemperatura = temperaturaService.getByFilter(data.getEstacao(), data.getDataInicio(), data.getDataFim());
-		
-		return listTemperatura != null && listTemperatura.size() > 0 ? new ResponseEntity<List<Temperatura>>(listTemperatura, HttpStatus.CREATED)
-				: new ResponseEntity<List<Temperatura>>(listTemperatura, HttpStatus.BAD_REQUEST);
-
-	}
-}  ;
-  </p>
+  <p>[classe Controller exemplo](https://github.com/DatatechOffice/Api_Iacit/blob/main/api/src/main/java/com/iacit/api/controller/TemperaturaController.java)
   
 </details>
 
