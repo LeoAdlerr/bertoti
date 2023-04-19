@@ -108,6 +108,7 @@ public class TemperaturaController {
   <p> - explicar que atuei como Scrum Master e aprendi a utilizar a metodologia ágil/Scrum entregando o projeto por sprints e </p>
 
 	</details>
+	<details>
   <summary>Demais Aprendizados</summary>
   <p> - Compreendem o funcionamento de interfaces e o polimorfismo na linguagem Java, a linguagem Javascript, HTML e CSS(através do
   bootstrap). Além da manipulação de dados massivos, desde o download a persistência efetiva;
