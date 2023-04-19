@@ -59,8 +59,27 @@ metodologias ageis e diversas tecnologias.
   filtrados pelo frontend, foi pensado em criar essa pesquisa numa lógica que contemple quaisquer pesquisas feitas, além
   do crud com as telas de Login</summary>
   <p>
-    * [classe Controller exemplo](https://github.com/DatatechOffice/Api_Iacit/blob/main/api/src/main/java/com/iacit/api/controller/TemperaturaController.java)
-    
+    * [classe Controller exemplo]@Controller
+public class TemperaturaController {
+
+	@Autowired(required = true)
+	private ServiceTemperatura temperaturaService;
+
+	@PostMapping(value = { "/temperatura" }, consumes = MediaType.APPLICATION_JSON_VALUE)
+	public ResponseEntity<List<Temperatura>> postFiltroPorData(@RequestBody FilterDataVo data) throws ParseException {
+		
+		List<Temperatura> listTemperatura = temperaturaService.getByFilter(data.getEstacao(), data.getDataInicio(), data.getDataFim());
+		
+		return listTemperatura != null && listTemperatura.size() > 0 ? new ResponseEntity<List<Temperatura>>(listTemperatura, HttpStatus.CREATED)
+				: new ResponseEntity<List<Temperatura>>(listTemperatura, HttpStatus.BAD_REQUEST);
+
+	}
+}    
+    Neste exemplo utilizei um método post para receber os dados vindos do frontend, no caso em formato JSON. Para receber esse json foi 
+  necessário criar uma classe(FilterDataVO) que tivesse um modelo e atributos equivalentes aos vindos do JS.
+    Entra os dados no método vindos de um service que foi feita a inserção de dependência na classe controller e após a resposta, dependendo
+  do retorno ou não da função(getByFilter), existe um ternário para dar uma resposta que no caso pode ser um BadRequest(se não houver um
+  retorno)  ou Created(caso haja um retorno).
   
 </details>
 
