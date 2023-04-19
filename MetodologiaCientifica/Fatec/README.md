@@ -92,7 +92,7 @@ metodologias ageis e diversas tecnologias.
 
 </details>
   <summary>Demais Aprendizados</summary>
-  <p> - Compreendem o funcionamento de interfaces e o polimorfismo na linguagem Java, o básico da linguagem Javascript, HTML e CSS(através do
+  <p> - Compreendem o funcionamento de interfaces e o polimorfismo na linguagem Java, a linguagem Javascript, HTML e CSS(através do
   bootstrap). Além da manipulação de dados massivos, desde o download a persistência efetiva;
   </p>
   
