@@ -84,9 +84,11 @@ public class TemperaturaController {
 </details>
 
 <details>
-<summary>Manipulação de dados</summary>
+<summary>Manipulação de dados
+	
+	 - Na persistência, participei nos scripts em java para popular o banco com os dados vindos do csv;</summary>
   <p>
-  - Na persistência, participei nos scripts em java para popular o banco com os dados vindos do csv;
+ 
     </p>
     </details>
     
