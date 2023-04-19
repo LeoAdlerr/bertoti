@@ -89,15 +89,8 @@ public class TemperaturaController {
  - Na persistência, participei nos scripts em java para popular o banco com os dados vindos do csv;
 	</summary>
   <p>
- jorge
-    </p>
-	
-	
-	
-    </details>
-    
-
-  
+	 jorge
+    </p>  </details>
   
  <h4>Aprendizado Efetivo</h4>
   
