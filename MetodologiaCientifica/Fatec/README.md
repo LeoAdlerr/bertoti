@@ -88,9 +88,8 @@ public class TemperaturaController {
 	
  - Na persistência, participei nos scripts em java para popular o banco com os dados vindos do csv	</summary>
   <p>
-	                                              public void insBancoService(ArrayList<String> regEstN, ArrayList<String> regEstC, ArrayList<String> regEstLA,
-			ArrayList<String> regEstLO, ArrayList<String> regEstAL, ArrayList<String> regEstD, ArrayList<String> etd) {
-		// qual o id da regiao e com o Id em mãos inserir o estado
+	             ----------------------------------public void insBancoService(ArrayList<String> regEstN, ArrayList<String> regEstC, ArrayList<String> regEstLA,=---------------
+			-----------------------------------ArrayList<String> regEstLO, ArrayList<String> regEstAL, ArrayList<String> regEstD, ArrayList<String> etd) {------------
 		int ii = regEstC.size();
 		for (int i = 1; i < ii; i++) {
 			String estNome = regEstN.get(i);
