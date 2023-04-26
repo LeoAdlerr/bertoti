@@ -88,7 +88,32 @@ public class TemperaturaController {
 	
  - Na persistência, participei nos scripts em java para popular o banco com os dados vindos do csv	</summary>
   <p>
-	 jorge
+	public void insBancoService(ArrayList<String> regEstN, ArrayList<String> regEstC, ArrayList<String> regEstLA,
+			ArrayList<String> regEstLO, ArrayList<String> regEstAL, ArrayList<String> regEstD, ArrayList<String> etd) {
+		// qual o id da regiao e com o Id em mãos inserir o estado
+		int ii = regEstC.size();
+		for (int i = 1; i < ii; i++) {
+			String estNome = regEstN.get(i);
+			String estC = regEstC.get(i);
+			String latitude = regEstLA.get(i);
+			String longitude = regEstLO.get(i);
+			String altitude = regEstAL.get(i);
+			String dataFundacao = regEstD.get(i);
+			String estadoS = etd.get(i);
+
+			if (i - 1 >= 0 && regEstC.get(i - 1) != estC) {
+				Estado estado = new Estado();
+				estado = serviceEstado.returnEstado(estadoS);
+				Estado estadoID = new Estado(estado.getEtdId());
+				Estacao estacao = new Estacao(estadoID, estC, BigDecimal.valueOf(Double.parseDouble(longitude)),
+						estNome, Timestamp.valueOf(dataFundacao + " 00:00:00"),
+						BigDecimal.valueOf(Double.parseDouble(latitude)),
+						BigDecimal.valueOf(Double.parseDouble(altitude)));
+				estacaoRepository.save(estacao);
+			} else {
+				continue;
+			}
+		}
     </p>  </details>
   
  <h4>Aprendizado Efetivo</h4>
