@@ -87,8 +87,13 @@ public class TemperaturaController {
 <summary>Manipulação de dados
 	
  - Na persistência, participei nos scripts em java para popular o banco com os dados vindos do csv	</summary>
-  <p>
-	public void insBancoService
+  <p>	Nesse trecho primeiramente recebo os dados vindos do csv referentes aos estados e como são diversas linhas
+	  com o mesmo valor seguidas, criei uma lógica que quando um valor fosse inserido, só teria uma inserção 
+	  novamente quando houvesse uma mudança, pois só queriamos uma instância de cada Estado nas tabelas, utilizando 
+	  um objeto com os valores em seus atributos utilizamos o springBoot para inserir cada instância na respectiva tabela,
+	  usando o comando .save;
+	
+	  public void insBancoService
 	  (ArrayList<String> regEstN,
 	  ArrayList<String> regEstC,
 	  ArrayList<String> regEstLA, 
