@@ -154,7 +154,7 @@ public class TemperaturaController {
   <p> - Compreendem o funcionamento de interfaces(orientação a objeto)e o polimorfismo na linguagem Java, Javascript, HTML e CSS(através do
   bootstrap). Além da manipulação de dados massivos, desde o download a persistência efetiva;
   </p>
-</details>
+
   
 
   
