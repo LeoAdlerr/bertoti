@@ -54,9 +54,12 @@ metodologias ageis e diversas tecnologias.
   <br><br>
   
 <h4>Contribuições individuais</h4>
-  <summary>Api's Rest  - Usando spring boot, criei as api's a serem consumidas, nas quais conectei com o banco sql para buscar os dados 
+  <details>
+<summary>Api's Rest  - Usando spring boot, criei as api's a serem consumidas, nas quais conectei com o banco sql para buscar os dados 
   filtrados pelo frontend, foi pensado em criar essa pesquisa numa lógica que contemple quaisquer pesquisas feitas, além
   do crud com as telas de Login</summary>
+
+  </p>
   
     * [classe Controller exemplo]@Controller
 public class TemperaturaController {
@@ -79,13 +82,16 @@ public class TemperaturaController {
     Entra os dados no método vindos de um service que foi feita a inserção de dependência na classe controller e após a resposta, dependendo
   do retorno ou não da função(getByFilter), existe um ternário para dar uma resposta que no caso pode ser um BadRequest(se não houver um
   retorno)  ou Created(caso haja um retorno).
+  </p>
+  </details>
 	  
 	  
   
-
+<details>
 <summary>Manipulação de dados
-	
- - Na persistência, participei nos scripts em java para popular o banco com os dados vindos do csv	</summary>
+- Na persistência, participei nos scripts em java para popular o banco com os dados vindos do csv	</summary>
+	<p>
+ 
   	
   Nesse trecho primeiramente recebo os dados vindos do csv referentes aos estados e como são diversas linhas
 	  com o mesmo valor seguidas, criei uma lógica que quando um valor fosse inserido(for), só teria uma inserção 
@@ -123,8 +129,9 @@ public class TemperaturaController {
 			} else {
 				continue;
 			}
-		};
-		
+    };
+    </p>
+		</details>
   
  <h4>Aprendizado Efetivo</h4>
 
@@ -142,7 +149,6 @@ public class TemperaturaController {
 	realizado e o mais importante, o quão é relevante a opnião e decisões do cliente para o projeto, por isso é necessário tirar todas
 	as dúvidas e alinhar as expectativas o quanto antes, o trabalho do PO pode afetar toda a equipe e o resultado de um projeto.</p>
 
-	  
   <summary>Demais Aprendizados</summary>
   - Compreendem o funcionamento de interfaces(orientação a objeto)e o polimorfismo na linguagem Java, Javascript, HTML e CSS(através do
   bootstrap). Além da manipulação de dados massivos, desde o download a persistência efetiva;
