@@ -80,6 +80,8 @@ public class TemperaturaController {
     Entra os dados no método vindos de um service que foi feita a inserção de dependência na classe controller e após a resposta, dependendo
   do retorno ou não da função(getByFilter), existe um ternário para dar uma resposta que no caso pode ser um BadRequest(se não houver um
   retorno)  ou Created(caso haja um retorno).
+	  
+	  </p>
   
 </details>
 
@@ -125,8 +127,8 @@ public class TemperaturaController {
 				continue;
 			}
 		};
-		
-    </p>  </details>
+		 </p>  
+	  </details>
   
  <h4>Aprendizado Efetivo</h4>
   
@@ -137,22 +139,21 @@ public class TemperaturaController {
     No caso, a conexão http através dos links, os tipos de retorno e como utiliza-los(enviando e recebendo JSON's), onde utilizamos POST, GET,
     PUT entre outros tipos de requests que possibilitaram a conexão entre o Banco de Dados e o Front do projeto;
   </p>
-  
 </details>
-
+	  
 <details>
   <summary>Metodologia Ágil</summary>
   <p> - Atuei como Scrum Master e aplicamos a metodologia ágil no nosso projeto, que foi entregue em 4 Sprints e o maior aprendizado 
 	nesse caso foi a necessidade de mudar e se adaptar o quão antes, para que não haja perda parcial ou significativa de certo trabalho 
 	realizado e o mais importante, o quão é relevante a opnião e decisões do cliente para o projeto, por isso é necessário tirar todas
 	as dúvidas e alinhar as expectativas o quanto antes, o trabalho do PO pode afetar toda a equipe e o resultado de um projeto.</p>
-	</details>
+</details>
+	  
 <details>
   <summary>Demais Aprendizados</summary>
   <p> - Compreendem o funcionamento de interfaces(orientação a objeto)e o polimorfismo na linguagem Java, Javascript, HTML e CSS(através do
   bootstrap). Além da manipulação de dados massivos, desde o download a persistência efetiva;
   </p>
-  
 </details>
   
 
