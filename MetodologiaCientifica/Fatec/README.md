@@ -54,11 +54,10 @@ metodologias ageis e diversas tecnologias.
   <br><br>
   
 <h4>Contribuições individuais</h4>
-<details>
   <summary>Api's Rest  - Usando spring boot, criei as api's a serem consumidas, nas quais conectei com o banco sql para buscar os dados 
   filtrados pelo frontend, foi pensado em criar essa pesquisa numa lógica que contemple quaisquer pesquisas feitas, além
   do crud com as telas de Login</summary>
-  <p>
+  
     * [classe Controller exemplo]@Controller
 public class TemperaturaController {
 
@@ -81,15 +80,13 @@ public class TemperaturaController {
   do retorno ou não da função(getByFilter), existe um ternário para dar uma resposta que no caso pode ser um BadRequest(se não houver um
   retorno)  ou Created(caso haja um retorno).
 	  
-	  </p>
+	  
   
-</details>
 
-<details>
 <summary>Manipulação de dados
 	
  - Na persistência, participei nos scripts em java para popular o banco com os dados vindos do csv	</summary>
-  <p>	
+  	
   Nesse trecho primeiramente recebo os dados vindos do csv referentes aos estados e como são diversas linhas
 	  com o mesmo valor seguidas, criei uma lógica que quando um valor fosse inserido(for), só teria uma inserção 
 	  novamente quando houvesse uma mudança, pois só queriamos uma instância de cada Estado nas tabelas, utilizando 
@@ -127,32 +124,29 @@ public class TemperaturaController {
 				continue;
 			}
 		};
-		 </p>  
-	  </details>
+		
   
  <h4>Aprendizado Efetivo</h4>
-  
-  <details>
+
   <summary>Api's Rest</summary>
-  <p> - Foi o principal aprendizado, pois através desse entendimento é possível criar diversos tipos de aplicativos
+  - Foi o principal aprendizado, pois através desse entendimento é possível criar diversos tipos de aplicativos
   web, principalmente aqueles que necessitam de algum mecanismo de busca ou até para mostrar.
     No caso, a conexão http através dos links, os tipos de retorno e como utiliza-los(enviando e recebendo JSON's), onde utilizamos POST, GET,
     PUT entre outros tipos de requests que possibilitaram a conexão entre o Banco de Dados e o Front do projeto;
-  </p>
-</details>
+
 	  
-<details>
+
   <summary>Metodologia Ágil</summary>
-  <p> - Atuei como Scrum Master e aplicamos a metodologia ágil no nosso projeto, que foi entregue em 4 Sprints e o maior aprendizado 
+  - Atuei como Scrum Master e aplicamos a metodologia ágil no nosso projeto, que foi entregue em 4 Sprints e o maior aprendizado 
 	nesse caso foi a necessidade de mudar e se adaptar o quão antes, para que não haja perda parcial ou significativa de certo trabalho 
 	realizado e o mais importante, o quão é relevante a opnião e decisões do cliente para o projeto, por isso é necessário tirar todas
 	as dúvidas e alinhar as expectativas o quanto antes, o trabalho do PO pode afetar toda a equipe e o resultado de um projeto.</p>
-</details>
+
 	  
   <summary>Demais Aprendizados</summary>
-  <p> - Compreendem o funcionamento de interfaces(orientação a objeto)e o polimorfismo na linguagem Java, Javascript, HTML e CSS(através do
+  - Compreendem o funcionamento de interfaces(orientação a objeto)e o polimorfismo na linguagem Java, Javascript, HTML e CSS(através do
   bootstrap). Além da manipulação de dados massivos, desde o download a persistência efetiva;
-  </p>
+  
 
   
 
