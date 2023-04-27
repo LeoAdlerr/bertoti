@@ -147,7 +147,7 @@ public class TemperaturaController {
 	realizado e o mais importante, o quão é relevante a opnião e decisões do cliente para o projeto, por isso é necessário tirar todas
 	as dúvidas e alinhar as expectativas o quanto antes, o trabalho do PO pode afetar toda a equipe e o resultado de um projeto.</p>
 	</details>
-
+<details>
   <summary>Demais Aprendizados</summary>
   <p> - Compreendem o funcionamento de interfaces(orientação a objeto)e o polimorfismo na linguagem Java, Javascript, HTML e CSS(através do
   bootstrap). Além da manipulação de dados massivos, desde o download a persistência efetiva;
