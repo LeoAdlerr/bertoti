@@ -89,7 +89,7 @@ public class TemperaturaController {
  - Na persistência, participei nos scripts em java para popular o banco com os dados vindos do csv	</summary>
   <p>	
   Nesse trecho primeiramente recebo os dados vindos do csv referentes aos estados e como são diversas linhas
-	  com o mesmo valor seguidas, criei uma lógica que quando um valor fosse inserido, só teria uma inserção 
+	  com o mesmo valor seguidas, criei uma lógica que quando um valor fosse inserido(for), só teria uma inserção 
 	  novamente quando houvesse uma mudança, pois só queriamos uma instância de cada Estado nas tabelas, utilizando 
 	  um objeto com os valores em seus atributos utilizamos o springBoot para inserir cada instância na respectiva tabela,
 	  usando o comando .save;
@@ -142,11 +142,14 @@ public class TemperaturaController {
 
 <details>
   <summary>Metodologia Ágil</summary>
-  <p> - explicar que atuei como Scrum Master e aprendi a utilizar a metodologia ágil/Scrum entregando o projeto por sprints e </p>
+  <p> - Atuei como Scrum Master e aplicamos a metodologia ágil no nosso projeto, que foi entregue em 4 Sprints e o maior aprendizado 
+	nesse caso foi a necessidade de mudar e se adaptar o quão antes, para que não haja perda parcial ou significativa de certo trabalho 
+	realizado e o mais importante, o quão é relevante a opnião e decisões do cliente para o projeto, por isso é necessário tirar todas
+	as dúvidas e alinhar as expectativas o quanto antes, o trabalho do PO pode afetar toda a equipe e o resultado de um projeto.</p>
 	</details>
 
   <summary>Demais Aprendizados</summary>
-  <p> - Compreendem o funcionamento de interfaces e o polimorfismo na linguagem Java, a linguagem Javascript, HTML e CSS(através do
+  <p> - Compreendem o funcionamento de interfaces(orientação a objeto)e o polimorfismo na linguagem Java, Javascript, HTML e CSS(através do
   bootstrap). Além da manipulação de dados massivos, desde o download a persistência efetiva;
   </p>
   
