@@ -81,7 +81,7 @@ public class TemperaturaController {
   necessário criar uma classe(FilterDataVO) que tivesse um modelo e atributos equivalentes aos vindos do JS.
     Entra os dados no método vindos de um service que foi feita a inserção de dependência na classe controller e após a resposta, dependendo
   do retorno ou não da função(getByFilter), existe um ternário para dar uma resposta que no caso pode ser um BadRequest(se não houver um
-  retorno)  ou Created(caso haja um retorno).
+  retorno)  ou Created(caso haja um retorno). 
   </p>
   </details>
 	  
@@ -91,7 +91,7 @@ public class TemperaturaController {
 <summary>Manipulação de dados
 - Na persistência, participei nos scripts em java para popular o banco com os dados vindos do csv	</summary>
 	<p>
- 
+ *[Classe regiaoService]
   	
   Nesse trecho primeiramente recebo os dados vindos do csv referentes aos estados e como são diversas linhas
 	  com o mesmo valor seguidas, criei uma lógica que quando um valor fosse inserido(for), só teria uma inserção 
@@ -137,7 +137,8 @@ public class TemperaturaController {
 
   <summary>Api's Rest</summary>
   - Foi o principal aprendizado, pois através desse entendimento é possível criar diversos tipos de aplicativos
-  web, principalmente aqueles que necessitam de algum mecanismo de busca ou até para mostrar.
+  web, principalmente aqueles que necessitam de algum mecanismo de busca ou até para mostrar dados, seja em forma de gráficos como foi o nosso
+		caso ou de diversas outras maneiras.
     No caso, a conexão http através dos links, os tipos de retorno e como utiliza-los(enviando e recebendo JSON's), onde utilizamos POST, GET,
     PUT entre outros tipos de requests que possibilitaram a conexão entre o Banco de Dados e o Front do projeto;
 
