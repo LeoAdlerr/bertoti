@@ -59,7 +59,7 @@ metodologias ageis e diversas tecnologias.
   filtrados pelo frontend, foi pensado em criar essa pesquisa numa lógica que contemple quaisquer pesquisas feitas, além
   do crud com as telas de Login</summary>
 
-  </p>
+  <p>
   
     * [classe Controller exemplo]@Controller
 public class TemperaturaController {
@@ -89,8 +89,8 @@ public class TemperaturaController {
   
 <details>
 <summary>Manipulação de dados
-- Na persistência, participei nos scripts em java para popular o banco com os dados vindos do csv	</summary>
-	<p>
+- Na persistência, participei nos scripts em java para popular o banco com os dados vindos do csv</summary>
+<p>
  *[Classe regiaoService]
   	
   Nesse trecho primeiramente recebo os dados vindos do csv referentes aos estados e como são diversas linhas
