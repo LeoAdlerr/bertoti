@@ -133,9 +133,10 @@ public class TemperaturaController {
 	</p>
 </details>
 	<details>
-<summary>Manipulação de dados
-- Na persistência, participei nos scripts em java para popular o banco com os dados vindos do csv</summary>
+<summary>Orientação a Objeto e classes que representam algo da vida real</summary>
 <p>
+	No exemplo em questão represento a Radiação globlal das cidades em questão, que contém o horário da coleta e o valor da radiação no momento da coleta do dado;
+	<br>
 @Entity(name = "radiacao_global")
 @Table(name = "radiacao_global")
 @Getter
