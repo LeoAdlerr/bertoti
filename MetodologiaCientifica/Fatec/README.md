@@ -132,7 +132,39 @@ public class TemperaturaController {
     };
 	</p>
 </details>
-		
+	<details>
+<summary>Manipulação de dados
+- Na persistência, participei nos scripts em java para popular o banco com os dados vindos do csv</summary>
+<p>
+@Entity(name = "radiacao_global")
+@Table(name = "radiacao_global")
+@Getter
+@Setter
+@NoArgsConstructor
+@Component
+public class RadiacaoGlobal {
+	public RadiacaoGlobal(Estacao estCodigo, Timestamp dataHora, BigDecimal valor) {
+		this.estCodigo=estCodigo;
+		this.dataHora=dataHora;
+		this.valor=valor;
+	}
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name= "rag_id")
+    private Integer ragId;
+
+	@Column(name= "rag_radiacao_global")
+    private BigDecimal valor;
+
+	@Column(name= "rag_data_hora")
+    private Timestamp dataHora;
+
+	@ManyToOne
+	@JoinColumn(name = "est_codigo", referencedColumnName = "est_codigo")
+	private Estacao estCodigo;
+}
+	</details>
   
  <h4>Aprendizado Efetivo:</h4>
 
