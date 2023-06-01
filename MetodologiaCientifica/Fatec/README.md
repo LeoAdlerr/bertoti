@@ -134,9 +134,10 @@ public class TemperaturaController {
     };
 	</p>
 </details>
-	<details>
+	
+<details>
 <summary>Orientação a Objeto e classes que representam algo da vida real</summary>
-<p>
+<p><br> <br>
 	No exemplo em questão represento a Radiação globlal das cidades em questão, que contém o horário da coleta e o valor da radiação no momento da coleta do dado;
 	<br>
 @Entity(name = "radiacao_global")
@@ -170,9 +171,9 @@ public class RadiacaoGlobal {
 		</p>
 	</details>
 	
-	<details>
+<details>
 <summary>Polimorfismo</summary>
-<p>
+<p><br><br>
 	Com a utilização de Interfaces do Hibernate, criamos uma possibilidade de utilizar os atributos para
 comunicar colunas e tabelas do banco de dados com as classes que representam cada respectiva entidade;
 	<br>
