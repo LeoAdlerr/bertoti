@@ -57,7 +57,7 @@ metodologias ageis e diversas tecnologias.
   <details>
 <summary>Api Rest </summary>
 	
-  <p>
+  <p><br>
   	- Usando spring boot, criei as api's a serem consumidas, nas quais conectei com o banco sql para buscar os dados 
   filtrados pelo frontend, foi pensado em criar uma lógica que contemple quaisquer pesquisas feitas, além
   do crud com as telas de Login;
@@ -91,8 +91,9 @@ public class TemperaturaController {
 <details>
 <summary>Manipulação de dados
 - Na persistência</summary>
-<p>
+<p><br><br>
 	Scripts em java para popular o banco com os dados vindos do csv
+	<br><br>
  *[Classe regiaoService]
   	
   Nesse trecho primeiramente recebo os dados vindos do csv referentes aos estados e como são diversas linhas
