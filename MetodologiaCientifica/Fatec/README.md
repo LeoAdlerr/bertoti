@@ -134,9 +134,9 @@ public class TemperaturaController {
 </details>
 		
   
- <h4>Aprendizado Efetivo</h4>
+ <h4>Aprendizado Efetivo:</h4>
 
-  <summary>Api's Rest</summary>
+  <summary>Api's Rest:</summary>
   - Foi o principal aprendizado, pois através desse entendimento é possível criar diversos tipos de aplicativos
   web, principalmente aqueles que necessitam de algum mecanismo de busca ou até para mostrar dados, seja em forma de gráficos como foi o nosso
 		caso ou de diversas outras maneiras.
