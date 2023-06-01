@@ -147,7 +147,7 @@ public class TemperaturaController {
 	-As classes da pasta Entity, com auxilio do hibernate, são objetos que representam as tabelas do banco de dados e consequentemente suas representações de algo na vida real, como a classe Temperatura que representa as temperaturas de cada cidade e a classe Região que representa as regiões geográficas do Brasil(Sul, Centro-Oeste, etc);
 	
  <summary>Polimorfismo:</summary>
-	-Ao separar as classes em Interfaces, Services, Entitys(Repositories) e Controllers, foi possível herdar funcionalidades de classes para no final controla-las(tendo separado cada parte do processo) assim selecionando de acordo com a necessidade e economizando linhas de código;
+	-Ao separar as classes em Interfaces, Services, Entitys(Repositories) e Controllers, foi possível herdar funcionalidades de classes para no final controla-las(tendo separado cada parte do processo), assim selecionando de acordo com a necessidade e economizando linhas de código;
 	
 <summary>Persistência:</summary>
 	-Utilizando a orientação a objeto/polimorfismo, criamos passos que começam desde o download dos CSVs com os dados meteorológicos, tratamento desses arquivos e inserção definitiva utilizando esses dados no banco, isso tendo em vista que é uma quantidade massiva de informações, ou seja, todos os passos necessários para tal foram implementados.
