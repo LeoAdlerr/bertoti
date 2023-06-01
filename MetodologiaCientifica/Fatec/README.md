@@ -55,12 +55,13 @@ metodologias ageis e diversas tecnologias.
   
 <h4>Contribuições individuais</h4>
   <details>
-<summary>Api's Rest  - Usando spring boot, criei as api's a serem consumidas, nas quais conectei com o banco sql para buscar os dados 
-  filtrados pelo frontend, foi pensado em criar uma lógica que contemple quaisquer pesquisas feitas, além
-  do crud com as telas de Login</summary>
-
+<summary>Api Rest </summary>
+	
   <p>
-  
+  	- Usando spring boot, criei as api's a serem consumidas, nas quais conectei com o banco sql para buscar os dados 
+  filtrados pelo frontend, foi pensado em criar uma lógica que contemple quaisquer pesquisas feitas, além
+  do crud com as telas de Login;
+	  <br>
     * [classe Controller exemplo]@Controller
 public class TemperaturaController {
 
