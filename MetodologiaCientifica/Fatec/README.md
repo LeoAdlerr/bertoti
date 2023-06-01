@@ -90,8 +90,9 @@ public class TemperaturaController {
   
 <details>
 <summary>Manipulação de dados
-- Na persistência, participei nos scripts em java para popular o banco com os dados vindos do csv</summary>
+- Na persistência</summary>
 <p>
+	Scripts em java para popular o banco com os dados vindos do csv
  *[Classe regiaoService]
   	
   Nesse trecho primeiramente recebo os dados vindos do csv referentes aos estados e como são diversas linhas
