@@ -167,9 +167,10 @@ public class RadiacaoGlobal {
 	@JoinColumn(name = "est_codigo", referencedColumnName = "est_codigo")
 	private Estacao estCodigo;
 }
+		</p>
 	</details>
 	<details>
-<summary>Polimorfismo:</summary>
+<summary>Polimorfismo</summary>
 <p>
 	Com a utilização de Interfaces do Hibernate, criamos uma possibilidade de utilizar os atributos para comunicar colunas e tabelas do banco de dados com as classes que representam cada respectiva entidade;
 	<br>
