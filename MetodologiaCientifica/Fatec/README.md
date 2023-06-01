@@ -27,20 +27,20 @@ metodologias ageis e diversas tecnologias.
   usuários e para tal a conexão e utilização das APIs criadas em java/springboot;
   <br><br>
 - Java e SpringBoot:
-  <br>
+  <br><br>
     Primeiramente foram feitas rotinas para persistir a base de dados meteorológicos; 
     Depois a criação  das Apis Rest conectando o banco de dados que contém os dados meteorológicos com as páginas, 
   para tal foram criadas pesquisas aliadas a lógicas para buscar e filtrar os dados e assim enviando os resultados
   em formato JSON para que possam ser tratados pelo JavaScript;
   <br><br>
 - Python: 
-  <br>
+  <br><br>
     Uma rotina para captação dos dados em csv fornecidos pelo cliente foi criada, para assim criar um csv com os  
   valores de todos os períodos agregados e assim podendo envia-los num formato onde fosse possível persisti-los usando
   o java;
   <br><br>
 - PostgreSQL: 
-  <br>
+  <br><br>
     Foi o banco de dados de preferência da empresa contratante e o utilizado para armazenar os dados meteorológicos de 
   uma forma de uma forma que fosse possível utiliza-los num programa, além de traze-los num formato e tipo que 
   falicitassem o uso;
@@ -142,13 +142,13 @@ public class TemperaturaController {
 		caso ou de diversas outras maneiras.
     No caso, a conexão http através dos links, os tipos de retorno e como utiliza-los(enviando e recebendo JSON's), onde utilizamos POST, GET,
     PUT entre outros tipos de requests que possibilitaram a conexão entre o Banco de Dados e o Front do projeto;
-<br>	
+<br>	<br>
 <summary>Orientação a Objeto:</summary>
 	-As classes da pasta Entity, com auxilio do hibernate, são objetos que representam as tabelas do banco de dados e consequentemente suas representações de algo na vida real, como a classe Temperatura que representa as temperaturas de cada cidade e a classe Região que representa as regiões geográficas do Brasil(Sul, Centro-Oeste, etc);
-<br>
+<br><br>
  <summary>Polimorfismo:</summary>
 	-Ao separar as classes em Interfaces, Services, Entitys(Repositories) e Controllers, foi possível herdar funcionalidades de classes para no final controla-las(tendo separado cada parte do processo), assim selecionando de acordo com a necessidade e economizando linhas de código;
-<br>
+<br><br>
 <summary>Persistência:</summary>
 	-Utilizando a orientação a objeto/polimorfismo, criamos passos que começam desde o download dos CSVs com os dados meteorológicos, tratamento desses arquivos e inserção definitiva utilizando esses dados no banco, isso tendo em vista que é uma quantidade massiva de informações, ou seja, todos os passos necessários para tal foram implementados.
 
