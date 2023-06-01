@@ -170,9 +170,11 @@ public class RadiacaoGlobal {
 		</p>
 	</details>
 	
+	<details>
 <summary>Polimorfismo</summary>
-
-	Com a utilização de Interfaces do Hibernate, criamos uma possibilidade de utilizar os atributos para comunicar colunas e tabelas do banco de dados com as classes que representam cada respectiva entidade;
+<p>
+	Com a utilização de Interfaces do Hibernate, criamos uma possibilidade de utilizar os atributos para
+comunicar colunas e tabelas do banco de dados com as classes que representam cada respectiva entidade;
 	<br>
 	@Repository
 public interface EstadoRepository extends JpaRepository<Estado, Integer> {
@@ -182,6 +184,8 @@ public interface EstadoRepository extends JpaRepository<Estado, Integer> {
 	@Query(value = "SELECT * FROM estado", nativeQuery = true)
 	public List<Estado> selectEstado();
 	}
+	</p>
+	</details>
   
  <h4>Aprendizado Efetivo:</h4>
 
